@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const generatedContent = document.getElementById('generatedContent');
 
     generateBtn.addEventListener('click', function() {
-        const apiKey = 'AIzaSyC7D1X3WA5ubyoIeULviiO5ombXEEx2gnU'; // Replace with your actual API key
+        const apiKey = 'REPLACE IT WITH YOUR API KEY'; // Replace with your actual API key
 
         const genAI = new GoogleGenerativeAI(apiKey);
         const model = genAI.getGenerativeModel({
